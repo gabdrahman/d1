@@ -23,6 +23,7 @@ public class GameTest extends AbstractTest {
 
     @ParameterizedTest
     @ValueSource(ints = {1, 2})
+    //Вы тут не используете эти параметры
     void checkNotRiskLose() {
         //given
         Player player = new Player("Игрок", false);
